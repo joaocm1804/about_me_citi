@@ -1,0 +1,66 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8B4513;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.livros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    
+    gap: 140px;
+}
+
+.livros img{
+    width: 200px;
+    height: auto; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.livro1{
+    transform: rotate(-10deg);
+    transition: transform 0.15s ease;
+}
+
+.livro2{
+    transform: rotate(14deg);
+    transition: transform 0.15s ease;
+}
+
+.livro3{
+    transform: rotate(-13deg);
+    transition: transform 0.15s ease;
+}
+
+.livro4{
+    transform: rotate(-27deg);
+    transition: transform 0.15s ease;
+}
+
+.livro1:hover{
+    transform: rotate(0deg) scale(1.2);
+    
+}
+
+.livro2:hover{
+    transform: rotate(0deg) scale(1.2);
+}
+
+.livro3:hover{
+    transform: rotate(0deg) scale(1.2);
+}
+
+.livro4:hover{
+    transform: rotate(0deg) scale(1.2);
+}
