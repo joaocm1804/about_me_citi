@@ -1,0 +1,112 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.busca {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.busca h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.lista {
+    display: block;
+}
+
+.canal {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    max-width: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.fotocanal {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 30px;
+    background-color: #ddd;
+}
+
+.nome {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: 600;
+    color: #0f0f0f;
+    display: block;
+}
+
+.inscritos {
+    margin: 0;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #606060;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.botao {
+    background-color: #cc0000;
+    color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: auto;
+    line-height: 1.2;
+    display: inline-block;
+}
+
+.botao:hover {
+    background-color: #960000;
+}
+
+header {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+
+.home-link img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.home-link img:hover {
+    transform: scale(1.1) rotate(-7deg);
+}
