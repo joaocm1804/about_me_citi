@@ -73,3 +73,9 @@ main{
   height: auto;
   padding-left: 20px;
 }
+
+#musica{
+  width: 120px;
+  height: auto;
+  padding-top: 10px;
+}
